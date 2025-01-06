@@ -9,10 +9,8 @@ let getRollNo = () =>{
 }
 
 
-
 let rollNoPromise = getRollNo();
 rollNoPromise.then((rollNo)=>{
     console.log(rollNo);
-    
 });
 
